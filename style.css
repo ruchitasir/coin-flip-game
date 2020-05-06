@@ -1,0 +1,40 @@
+body {
+    background-color: beige;
+    text-align: center;
+}
+#result {
+    visibility: hidden;
+    height: 100px;
+}
+#reset {
+    display: none;
+}
+#play {
+    margin: 10px 0;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+#play:hover {
+    background-color: deepskyblue;
+}
+#result-img {
+    height: 75px;
+    width: auto;
+}
+#result-text {
+    color: skyblue;
+}
+table {
+    border: 1px solid black;
+    display: inline-block;
+}
+th {
+    text-decoration: underline;
+    padding: 10px;
+    border: 1px solid #333;
+}
+td {
+    padding: 10px;
+    border: 1px solid #333;
+}

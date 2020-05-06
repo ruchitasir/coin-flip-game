@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coin Flip</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Coin Flip!</h1>
+    <div id="game">
+        <h2>Ready to play?</h2>
+        <div id="result">
+            <h3 id="result-text"></h3>
+            <img id="result-img" alt="result of flip">
+        </div>
+        <div id="controls">
+            <h3>Your choice?</h3>
+            <div>
+                <label for="heads">Heads</label>
+                <input type="radio" name="choice" value="heads" id="heads" checked>
+            </div>
+            <div>
+                <label for="tails">Tails</label>
+                <input type="radio" name="choice" value="tails" id="tails">
+            </div>
+            <button id="play">FLIP IT!</button>
+        </div>
+        <button id="reset">Reset Game</button>
+    </div>
+    <hr>
+    <div id="scores">
+        <h2>Previous High Scores</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name/Initials</th>
+                    <th>High Score</th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
